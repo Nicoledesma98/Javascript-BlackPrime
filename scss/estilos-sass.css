@@ -1,0 +1,26 @@
+.bgbody {
+  background: url(../multimedia/dolar.jpg) fixed;
+}
+
+.letra {
+  font-size: 25px;
+  font-family: 'Rye', cursive;
+}
+
+.border2 {
+  -webkit-box-shadow: 21px 16px 12px 16px rgba(0, 0, 0, 0.91);
+          box-shadow: 21px 16px 12px 16px rgba(0, 0, 0, 0.91);
+}
+
+.footerbg {
+  background: black;
+  background: -webkit-gradient(linear, left top, right top, color-stop(38%, black), color-stop(58%, #606060));
+  background: linear-gradient(90deg, black 38%, #606060 58%);
+}
+
+.letrafooter {
+  font-size: 15px;
+  font-family: 'Rye', cursive;
+  color: white;
+}
+/*# sourceMappingURL=estilos-sass.css.map */

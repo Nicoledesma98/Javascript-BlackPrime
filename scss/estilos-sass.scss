@@ -1,0 +1,25 @@
+.bgbody {
+    background: url(../multimedia/dolar.jpg) fixed;
+}
+.letra {
+    font-size: 25px;
+    font-family: 'Rye', cursive ;
+}
+
+.border2 {
+    box-shadow: 21px 16px 12px 16px rgba(0, 0, 0, 0.91);
+  }
+
+  .footerbg {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 1) 38%,
+      rgba(96, 96, 96, 1) 58%
+    );
+  }
+  .letrafooter {
+      font-size: 15px;
+      font-family:'Rye', cursive;
+      color: white;
+  }

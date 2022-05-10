@@ -1,0 +1,12 @@
+[
+    {"nameLastname":"nicolas ledesma","dni":"40975277","telefono":"112582482","calle":"melchor321","prestamo" : "100.000","cuotas":"3","total":"1321263"},
+    {"nameLastname":"roberto peres","dni":"23079875","telefono":"112582482","calle":"av Fair 11 ","prestamo" : "77.000","cuotas":"6","total":"92000"},
+    {"nameLastname":"alberto mandela","dni":"44104565","telefono":"112582482","calle":"valette 564","prestamo" : "330.000","cuotas":"12","total":"368000"},
+    {"nameLastname":"facundo rios","dni":"31445321","telefono":"0800222889","calle":"fernandez de la rosa 21","prestamo" : "430.000","cuotas":"24","total":"498900"},
+    {"nameLastname":"liliana fernandez","dni":"25456795","telefono":"4567794","calle":"norberto lopez 1200","prestamo" : "500.000","cuotas":"18","total":"571600"},
+    {"nameLastname":"julieta ricci","dni":"38234578","telefono":"43674597","calle":"santamarina 69","prestamo" : "125.000","cuotas":"18","total":"137200"},
+    {"nameLastname":"fernando pedrozo","dni":"21457836","telefono":"42892324","calle":"rojas 199","prestamo" : "25.000","cuotas":"3","total":"28300"},
+    {"nameLastname":"maximiliano barreiro","dni":"32456598","telefono":"222677894","calle":"sardi 98","prestamo" : "255.000","cuotas":"12","total":"283700"},
+    {"nameLastname":"nicolas sozonik","dni":"36412785","telefono":"11456786","calle":"perez iglesias 29","prestamo" : "90.000","cuotas":"6","total":"106200"},
+    {"nameLastname":"ricardo salomon","dni":"36789421","telefono":"112345967","calle":"prayones 908","prestamo" : "50.000","cuotas":"12","total":"62700"}
+]
