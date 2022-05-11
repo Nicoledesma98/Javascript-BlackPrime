@@ -27,6 +27,7 @@ const newPrestamo = () => {
   }
   cuentas.push(new infoPrestamo({ nombre: nombre, apellido: apellido, documento: dni, celular: telefono, direccion: calle, monto: prestamo, cuota: cuotaconinteres, pagar: total }))
   nuevoStorange();
+  
 };
 
 let nuevoStorange = () => {
@@ -37,23 +38,14 @@ const clearList = () => {
   let dinero = document.getElementById("plata");
   dinero.remove()
   Swal.fire({
-    title: '¿Estas seguro de borrar el prestamo?',
-    text: "",
-    icon: 'warning',
-    showCancelButton: true,
-    confirmButtonColor: '#3085d6',
-    cancelButtonColor: '#d33',
-    confirmButtonText: 'Si, borralo!',
-  }).then((result) => {
-    if (result.isConfirmed) {
-      Swal.fire(
-        'Borrado!',
-        'Tu prestamo ya no existe!.',
-        'Perfecto'
-      )
-    }
+    position: 'center',
+    icon: 'success',
+    title: 'Su prestamo fue borrado con exito!',
+    showConfirmButton: false,
+    timer: 1000
   })
 };
+
 function validarCampos() {
   return (
     document.getElementById("inputnombre").value != "" &&
