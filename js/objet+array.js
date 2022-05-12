@@ -57,3 +57,16 @@ function validarCampos() {
     document.getElementById("inputcalle").value != ""
   );
 }
+
+
+const form = document.getElementById("formulario")
+form.addEventListener("submit", e=>{
+  e.preventDefault()
+  if(validarCampos()) {
+    const item = infoPrestamo();
+    cuentas.push(item);
+    newPrestamo(item);
+  }
+  
+})
+
